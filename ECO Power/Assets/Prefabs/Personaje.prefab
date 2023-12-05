@@ -541,6 +541,7 @@ GameObject:
   - component: {fileID: 1740378735696257695}
   - component: {fileID: 1630585009733068070}
   - component: {fileID: 8771105266743290166}
+  - component: {fileID: 2261226252752071725}
   m_Layer: 0
   m_Name: Personaje
   m_TagString: Player
@@ -609,7 +610,7 @@ CharacterController:
   m_Radius: 0.8
   m_SlopeLimit: 45
   m_StepOffset: 0.3
-  m_SkinWidth: 0.08
+  m_SkinWidth: 0.02
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!114 &8771105266743290166
@@ -628,3 +629,34 @@ MonoBehaviour:
   tiempoRotacion: 0.1
   fuerzaSalto: 4
   gravedad: 9.81
+--- !u!114 &2261226252752071725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6856892548235304899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d888e30e232e9429f17c74caee33db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elemento: Recoleccion
+  entro:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: ManejadorRecoleccion, Assembly-CSharp
+        m_MethodName: ContarElementos
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  salio:
+    m_PersistentCalls:
+      m_Calls: []
