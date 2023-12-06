@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4403861563647624}
   - component: {fileID: 33157625760671402}
   - component: {fileID: 23932174335270754}
-  - component: {fileID: 1690388357670396546}
+  - component: {fileID: -8343550201479851855}
   m_Layer: 0
   m_Name: Cloud3
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1690388357670396546
-BoxCollider:
+--- !u!64 &-8343550201479851855
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,6 +94,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.9664562, y: 3.16465, z: 2.9923315}
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 55b93a84a93d2414c9eb5640f1a19b36, type: 3}
