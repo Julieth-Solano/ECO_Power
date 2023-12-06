@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4409128788137744}
   - component: {fileID: 33961112072941020}
   - component: {fileID: 23615373818053346}
-  - component: {fileID: 3270711323680908617}
+  - component: {fileID: -8305788904791993749}
   m_Layer: 0
   m_Name: Shield3
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3270711323680908617
-BoxCollider:
+--- !u!64 &-8305788904791993749
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,6 +94,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.6367229, y: 0.700237, z: 0.21548095}
-  m_Center: {x: 0.0000004917383, y: 0.3501185, z: 0.035858456}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: d0dde1f15cc6de046a45efb10b5b40ff, type: 3}

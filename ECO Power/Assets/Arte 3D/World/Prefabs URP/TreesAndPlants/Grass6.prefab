@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4031740796287554}
   - component: {fileID: 33192536625624204}
   - component: {fileID: 23361619380643208}
-  - component: {fileID: -877294942610615231}
+  - component: {fileID: 5413963383212807480}
   m_Layer: 0
   m_Name: Grass6
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &-877294942610615231
-BoxCollider:
+--- !u!64 &5413963383212807480
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,6 +94,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.62633544, y: 0.48275715, z: 0.52312773}
-  m_Center: {x: 0.018828124, y: 0.24137858, z: -0.019371487}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: e36f2de0e5b210548a250553febdf749, type: 3}

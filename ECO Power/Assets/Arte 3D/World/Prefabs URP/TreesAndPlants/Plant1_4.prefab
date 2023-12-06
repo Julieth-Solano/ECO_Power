@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4796679016768762}
   - component: {fileID: 33178122336308660}
   - component: {fileID: 23982630591001446}
-  - component: {fileID: -4818931362724843806}
+  - component: {fileID: -7851425106744858215}
   m_Layer: 0
   m_Name: Plant1_4
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &-4818931362724843806
-BoxCollider:
+--- !u!64 &-7851425106744858215
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,6 +94,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.5163592, y: 0.37314802, z: 0.2728717}
-  m_Center: {x: 0.0041861087, y: 0.18494508, z: -0.06278534}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 687c27278b2bca64b9b5c6b3b550acd8, type: 3}
