@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4883895359200038}
   - component: {fileID: 33100947237998052}
   - component: {fileID: 23123076808692974}
-  - component: {fileID: 2800055711475662492}
+  - component: {fileID: -6474726386860202571}
   m_Layer: 0
   m_Name: Flower2_6
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2800055711475662492
-BoxCollider:
+--- !u!64 &-6474726386860202571
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,6 +94,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.31744385, y: 0.7064868, z: 0.3362982}
-  m_Center: {x: -0.0059704557, y: 0.3532434, z: 0.060434874}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: ad87d6c8f8c91fd4fba13bbc0c04689f, type: 3}

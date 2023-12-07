@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4670573630587070}
   - component: {fileID: 33825375652391228}
   - component: {fileID: 23868830820496996}
-  - component: {fileID: 5556980277816926514}
+  - component: {fileID: 4793594139203131111}
   m_Layer: 0
   m_Name: Wheat2
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5556980277816926514
-BoxCollider:
+--- !u!64 &4793594139203131111
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,6 +94,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.19364502, y: 1.0190362, z: 0.303562}
-  m_Center: {x: -0.0025291443, y: 0.5095181, z: -0.08149841}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: a286789b15e7a0147a156144cd28441b, type: 3}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4426565394223002}
   - component: {fileID: 33774506977090862}
   - component: {fileID: 23819321846198636}
-  - component: {fileID: 6724501486474110394}
+  - component: {fileID: 2813429593559960085}
   m_Layer: 0
   m_Name: Leaf3
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6724501486474110394
-BoxCollider:
+--- !u!64 &2813429593559960085
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,6 +94,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.40835327, y: 0.000425, z: 0.33079773}
-  m_Center: {x: -0.0006414801, y: 0.00000049998926, z: -0.026741028}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: d5626f82d71e1864a81365d8dae7e815, type: 3}

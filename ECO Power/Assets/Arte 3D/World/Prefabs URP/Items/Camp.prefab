@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4959695276286332}
   - component: {fileID: 33547755092177850}
   - component: {fileID: 23428531414602744}
+  - component: {fileID: 4544606975573073659}
   m_Layer: 0
   m_Name: Camp
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4544606975573073659
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451894172722464}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: e44076796af9cdf4bad82045f56b937d, type: 3}
