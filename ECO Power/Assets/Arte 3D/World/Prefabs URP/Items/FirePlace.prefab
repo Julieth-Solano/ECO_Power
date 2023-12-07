@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4842814840537772}
   - component: {fileID: 33070826611882558}
   - component: {fileID: 23862136233987558}
+  - component: {fileID: 2479678339765547935}
   m_Layer: 0
   m_Name: Wood2
   m_TagString: Untagged
@@ -83,6 +84,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2479678339765547935
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044086113663722}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 6843e5b448f69fe45b026be445fb0436, type: 3}
 --- !u!1 &1073847673512916
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,6 +109,7 @@ GameObject:
   - component: {fileID: 4788207935784928}
   - component: {fileID: 33620660268353872}
   - component: {fileID: 23284438150175588}
+  - component: {fileID: 1573804497963463274}
   m_Layer: 0
   m_Name: Wood1
   m_TagString: Untagged
@@ -166,6 +182,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1573804497963463274
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073847673512916}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 67b90c8566fbc0842819719c3007a7b1, type: 3}
 --- !u!1 &1207702897753978
 GameObject:
   m_ObjectHideFlags: 0
@@ -14423,6 +14453,7 @@ GameObject:
   - component: {fileID: 4544771559727574}
   - component: {fileID: 33096622875540568}
   - component: {fileID: 23435778936585812}
+  - component: {fileID: 5276767467113362978}
   m_Layer: 0
   m_Name: Wood3
   m_TagString: Untagged
@@ -14495,6 +14526,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5276767467113362978
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493946121715824}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: cdc5ab8b9b4cfc94ab85add878f2e700, type: 3}
 --- !u!1 &1510714499296150
 GameObject:
   m_ObjectHideFlags: 0
@@ -19347,6 +19392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4843710517779440}
   - component: {fileID: 108446360234574080}
+  - component: {fileID: 2960021056934325633}
   m_Layer: 0
   m_Name: LightFire
   m_TagString: Untagged
@@ -19431,6 +19477,26 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &2960021056934325633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696506230715450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &1892224423767064
 GameObject:
   m_ObjectHideFlags: 0

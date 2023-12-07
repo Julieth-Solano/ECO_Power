@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4979648857460746}
   - component: {fileID: 33409923640387956}
   - component: {fileID: 23062071327569852}
+  - component: {fileID: -4042161892806071200}
   m_Layer: 0
   m_Name: PlantFat2
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &-4042161892806071200
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696998950971352}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 9dd262c40e4f9c84b9b70c61f55f6d73, type: 3}

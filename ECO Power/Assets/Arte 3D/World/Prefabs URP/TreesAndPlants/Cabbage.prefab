@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4237568838158486}
   - component: {fileID: 33760011054572324}
   - component: {fileID: 23951457788493658}
+  - component: {fileID: -1643808618708410329}
   m_Layer: 0
   m_Name: Cabbage
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &-1643808618708410329
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127762948628642}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: a263345022c1fdd438eedb79a6e03f87, type: 3}

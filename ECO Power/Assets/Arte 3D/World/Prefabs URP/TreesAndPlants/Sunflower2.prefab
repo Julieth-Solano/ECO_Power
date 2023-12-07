@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4264935659726568}
   - component: {fileID: 33211677362415828}
   - component: {fileID: 23670587808445470}
-  - component: {fileID: -109573538858770894}
+  - component: {fileID: -1871831025884260714}
   m_Layer: 0
   m_Name: Sunflower2
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &-109573538858770894
-BoxCollider:
+--- !u!64 &-1871831025884260714
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,6 +94,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.92507136, y: 1.3399285, z: 0.45568115}
-  m_Center: {x: 0.022932425, y: 0.66996425, z: 0.071433105}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 8a13d798d0264ce4e8862f064b01069b, type: 3}
