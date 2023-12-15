@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4253952066759230}
   - component: {fileID: 33904748893344948}
   - component: {fileID: 23077429191311186}
+  - component: {fileID: 5970775949383153336}
   m_Layer: 0
   m_Name: Crystal1 (3)
   m_TagString: Untagged
@@ -83,6 +84,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5970775949383153336
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036845626189030}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 9be16baae5f2db64e839f5823b2c65a2, type: 3}
 --- !u!1 &1072309900730780
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,6 +109,7 @@ GameObject:
   - component: {fileID: 4000702946312838}
   - component: {fileID: 33277304418673106}
   - component: {fileID: 23194213547525050}
+  - component: {fileID: 6357937703543554881}
   m_Layer: 0
   m_Name: Crystal4 (5)
   m_TagString: Untagged
@@ -166,6 +182,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6357937703543554881
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072309900730780}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: d16e4ebba0f5c1546bdb4daf41c2502d, type: 3}
 --- !u!1 &1076659255437592
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,6 +207,7 @@ GameObject:
   - component: {fileID: 4531625752166422}
   - component: {fileID: 33597012750055930}
   - component: {fileID: 23814615440274172}
+  - component: {fileID: 655933529543487956}
   m_Layer: 0
   m_Name: Crystal3 (3)
   m_TagString: Untagged
@@ -249,6 +280,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &655933529543487956
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076659255437592}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 2d22d58f26d8891499c2cc2c8136023c, type: 3}
 --- !u!1 &1092345726049590
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,6 +305,7 @@ GameObject:
   - component: {fileID: 4978123407125756}
   - component: {fileID: 33952206228103762}
   - component: {fileID: 23906314515982154}
+  - component: {fileID: 759088818450219156}
   m_Layer: 0
   m_Name: Crystal1 (7)
   m_TagString: Untagged
@@ -332,6 +378,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &759088818450219156
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092345726049590}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 9be16baae5f2db64e839f5823b2c65a2, type: 3}
 --- !u!1 &1125949257728836
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,6 +403,7 @@ GameObject:
   - component: {fileID: 4582646952162482}
   - component: {fileID: 33210332312386152}
   - component: {fileID: 23533996739651034}
+  - component: {fileID: 7627862895017231954}
   m_Layer: 0
   m_Name: Crystal4 (7)
   m_TagString: Untagged
@@ -415,6 +476,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7627862895017231954
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125949257728836}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: d16e4ebba0f5c1546bdb4daf41c2502d, type: 3}
 --- !u!1 &1231406998314206
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,6 +501,7 @@ GameObject:
   - component: {fileID: 4691851800144124}
   - component: {fileID: 33026811189394574}
   - component: {fileID: 23784577955318118}
+  - component: {fileID: 8950248205856790941}
   m_Layer: 0
   m_Name: Crystal4 (2)
   m_TagString: Untagged
@@ -498,6 +574,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8950248205856790941
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231406998314206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: d16e4ebba0f5c1546bdb4daf41c2502d, type: 3}
 --- !u!1 &1290831296443062
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,6 +599,7 @@ GameObject:
   - component: {fileID: 4952915705898292}
   - component: {fileID: 33753143477841616}
   - component: {fileID: 23798753011029386}
+  - component: {fileID: 8486571110381392903}
   m_Layer: 0
   m_Name: Crystal1 (4)
   m_TagString: Untagged
@@ -581,6 +672,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8486571110381392903
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290831296443062}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 9be16baae5f2db64e839f5823b2c65a2, type: 3}
 --- !u!1 &1323325944806472
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,6 +697,7 @@ GameObject:
   - component: {fileID: 4803214494850062}
   - component: {fileID: 33896514377970308}
   - component: {fileID: 23970510324319484}
+  - component: {fileID: 6450747549171848831}
   m_Layer: 0
   m_Name: Crystal1 (6)
   m_TagString: Untagged
@@ -664,6 +770,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6450747549171848831
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323325944806472}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 9be16baae5f2db64e839f5823b2c65a2, type: 3}
 --- !u!1 &1345777979743222
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,6 +795,7 @@ GameObject:
   - component: {fileID: 4091224421862330}
   - component: {fileID: 33765057819060764}
   - component: {fileID: 23496716424855598}
+  - component: {fileID: 8867686252671015248}
   m_Layer: 0
   m_Name: Crystal4 (6)
   m_TagString: Untagged
@@ -747,6 +868,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8867686252671015248
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345777979743222}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: d16e4ebba0f5c1546bdb4daf41c2502d, type: 3}
 --- !u!1 &1375648671002700
 GameObject:
   m_ObjectHideFlags: 0
@@ -758,6 +893,7 @@ GameObject:
   - component: {fileID: 4797400910320342}
   - component: {fileID: 33049403104175832}
   - component: {fileID: 23081029821538354}
+  - component: {fileID: 4533344767624445077}
   m_Layer: 0
   m_Name: Crystal1 (5)
   m_TagString: Untagged
@@ -830,6 +966,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4533344767624445077
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375648671002700}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 9be16baae5f2db64e839f5823b2c65a2, type: 3}
 --- !u!1 &1376629409571994
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,6 +991,7 @@ GameObject:
   - component: {fileID: 4222010638272098}
   - component: {fileID: 33197999475653838}
   - component: {fileID: 23832526966112306}
+  - component: {fileID: 4903732173373554755}
   m_Layer: 0
   m_Name: Crystal4 (4)
   m_TagString: Untagged
@@ -913,6 +1064,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4903732173373554755
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376629409571994}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: d16e4ebba0f5c1546bdb4daf41c2502d, type: 3}
 --- !u!1 &1595168721829852
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,6 +1089,7 @@ GameObject:
   - component: {fileID: 4097716145061176}
   - component: {fileID: 33864099767432306}
   - component: {fileID: 23171539797797906}
+  - component: {fileID: 7060393918158892744}
   m_Layer: 0
   m_Name: Crystal4 (8)
   m_TagString: Untagged
@@ -996,6 +1162,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7060393918158892744
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595168721829852}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: d16e4ebba0f5c1546bdb4daf41c2502d, type: 3}
 --- !u!1 &1680455310151860
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,6 +1235,7 @@ GameObject:
   - component: {fileID: 4053582423387472}
   - component: {fileID: 33313976461266564}
   - component: {fileID: 23931166348107288}
+  - component: {fileID: 7495470661207822689}
   m_Layer: 0
   m_Name: Crystal3 (4)
   m_TagString: Untagged
@@ -1127,6 +1308,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7495470661207822689
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741212316824966}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 2d22d58f26d8891499c2cc2c8136023c, type: 3}
 --- !u!1 &1760692870521470
 GameObject:
   m_ObjectHideFlags: 0
@@ -1138,6 +1333,7 @@ GameObject:
   - component: {fileID: 4521893231915712}
   - component: {fileID: 33770131838363248}
   - component: {fileID: 23118938440566548}
+  - component: {fileID: 5955599925970741893}
   m_Layer: 0
   m_Name: Crystal3 (5)
   m_TagString: Untagged
@@ -1210,6 +1406,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5955599925970741893
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760692870521470}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 2d22d58f26d8891499c2cc2c8136023c, type: 3}
 --- !u!1 &1789700444857492
 GameObject:
   m_ObjectHideFlags: 0
@@ -1221,6 +1431,7 @@ GameObject:
   - component: {fileID: 4561036046730922}
   - component: {fileID: 33928638860556992}
   - component: {fileID: 23579227489266576}
+  - component: {fileID: 6370769088086574711}
   m_Layer: 0
   m_Name: Crystal1 (2)
   m_TagString: Untagged
@@ -1293,6 +1504,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6370769088086574711
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789700444857492}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 9be16baae5f2db64e839f5823b2c65a2, type: 3}
 --- !u!1 &1854917072305054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1304,6 +1529,7 @@ GameObject:
   - component: {fileID: 4545811837007028}
   - component: {fileID: 33399160984381654}
   - component: {fileID: 23011636356045898}
+  - component: {fileID: 1184011785384220849}
   m_Layer: 0
   m_Name: Crystal4 (3)
   m_TagString: Untagged
@@ -1376,6 +1602,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1184011785384220849
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854917072305054}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: d16e4ebba0f5c1546bdb4daf41c2502d, type: 3}
 --- !u!1 &1973562824639446
 GameObject:
   m_ObjectHideFlags: 0
@@ -1387,6 +1627,7 @@ GameObject:
   - component: {fileID: 4865228058492782}
   - component: {fileID: 33015540432155726}
   - component: {fileID: 23518158146502174}
+  - component: {fileID: 1820069218782719270}
   m_Layer: 0
   m_Name: Crystal3 (2)
   m_TagString: Untagged
@@ -1459,3 +1700,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1820069218782719270
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973562824639446}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 2d22d58f26d8891499c2cc2c8136023c, type: 3}
