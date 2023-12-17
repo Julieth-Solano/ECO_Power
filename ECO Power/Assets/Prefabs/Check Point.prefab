@@ -4982,7 +4982,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Check Point
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cbb9e5ad51cd14d4090317921e16a8e2, type: 2}
   m_sharedMaterial: {fileID: 1151627056516776777, guid: cbb9e5ad51cd14d4090317921e16a8e2,
